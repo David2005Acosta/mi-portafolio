@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Acosta · Portafolio</title>
+  <meta name="description" content="Portafolio de David Acosta, desarrollador web en formación. Proyectos con TypeScript, Node.js, Express y Docker." />
+  <meta name="author" content="David Acosta" />
+  <meta name="theme-color" content="#fcfbf8" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="logo" href="#inicio">David Acosta</a>
+      <nav aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Presentación -->
+    <section class="intro" id="inicio">
+      <img class="avatar" src="assets/avatar.svg" alt="Iniciales de David Acosta" width="96" height="96" />
+
+      <div>
+        <p class="hello">Hola, soy</p>
+        <h1>David Acosta</h1>
+        <p class="role">Desarrollador web en formación · TypeScript, Node.js y Express</p>
+
+        <p>
+          Estudio desarrollo de software y construyo proyectos web. Me interesa
+          la seguridad, el despliegue y dejar documentación clara. Este
+          portafolio reúne algunos de los trabajos que he hecho.
+        </p>
+
+        <p class="links">
+          <a href="#proyectos">Ver proyectos</a>
+          <a href="https://github.com/David2005Acosta" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="mailto:david0912diaz@gmail.com">Escríbeme ↗</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Empecé a programar por curiosidad y terminé enganchado al desarrollo web.
+        Disfruto entender cómo funcionan las cosas por dentro: levantar un
+        servidor, proteger una API, empaquetar una aplicación en Docker y
+        explicar el proceso para que otra persona pueda repetirlo.
+      </p>
+      <p>
+        Ahora mismo busco prácticas o una primera oportunidad como desarrollador,
+        donde pueda seguir aprendiendo y aportar en proyectos reales.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <dl class="skills">
+        <div>
+          <dt>Frontend</dt>
+          <dd>HTML5, CSS3, JavaScript y diseño responsive.</dd>
+        </div>
+        <div>
+          <dt>Backend</dt>
+          <dd>Node.js, TypeScript, Express y APIs REST.</dd>
+        </div>
+        <div>
+          <dt>Seguridad y despliegue</dt>
+          <dd>Helmet, rate limiting, Docker, Git, GitHub y Vercel.</dd>
+        </div>
+        <div>
+          <dt>Documentación</dt>
+          <dd>Markdown, manuales de usuario, Python y exportación a PDF.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+
+      <ul class="projects">
+        <li>
+          <div class="project-head">
+            <h3>API REST de usuarios</h3>
+            <span>2026</span>
+          </div>
+          <p>
+            API hecha con Express y TypeScript para gestionar usuarios. Incluye
+            validación de datos, respuestas 404 y 400, cabeceras de seguridad con
+            Helmet y un límite de 30 peticiones por minuto por IP.
+          </p>
+          <p class="tech">TypeScript · Express · Helmet · Rate limiting</p>
+          <a href="https://github.com/David2005Acosta/GSW-1-lab/tree/main/ejercicio2" target="_blank" rel="noopener noreferrer">Ver código ↗</a>
+        </li>
+
+        <li>
+          <div class="project-head">
+            <h3>Servidor estático con Docker</h3>
+            <span>2026</span>
+          </div>
+          <p>
+            Servidor HTTP hecho desde cero con los módulos <code>http</code>,
+            <code>fs</code> y <code>path</code> de Node.js. Sirve una página
+            estática y se empaqueta en una imagen Docker multietapa.
+          </p>
+          <p class="tech">Node.js · TypeScript · Docker</p>
+          <a href="https://github.com/David2005Acosta/GSW-1-lab/tree/main/ejercicio1" target="_blank" rel="noopener noreferrer">Ver código ↗</a>
+        </li>
+
+        <li>
+          <div class="project-head">
+            <h3>Manual de usuario · Sistema Dulce Hogar</h3>
+            <span>2026</span>
+          </div>
+          <p>
+            Manual del módulo «Registrar libro»: flujo paso a paso, capturas
+            anotadas y figuras explicativas, exportado a Word y PDF con Python.
+          </p>
+          <p class="tech">Python · Documentación · PDF</p>
+        </li>
+
+        <li>
+          <div class="project-head">
+            <h3>Encriptación vs. hashing</h3>
+            <span>2026</span>
+          </div>
+          <p>
+            Comparativa con ejemplos prácticos: cifrado simétrico, funciones hash,
+            sal y errores comunes al almacenar contraseñas.
+          </p>
+          <p class="tech">Seguridad · Python · Redacción técnica</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Si quieres contactarme por unas prácticas, un proyecto o una vacante,
+        escríbeme. Respondo normalmente el mismo día.
+      </p>
+      <ul class="contact">
+        <li>
+          Correo:
+          <a href="mailto:david0912diaz@gmail.com">david0912diaz@gmail.com</a>
+        </li>
+        <li>
+          GitHub:
+          <a href="https://github.com/David2005Acosta" target="_blank" rel="noopener noreferrer">github.com/David2005Acosta</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© 2026 David Acosta</p>
+      <p>Hecho con HTML y CSS · Desplegado en Vercel</p>
+    </div>
+  </footer>
+</body>
+</html>

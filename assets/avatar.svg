@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Iniciales DA">
+  <rect width="120" height="120" rx="60" fill="#f1eee8"/>
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#e0dbd1" stroke-width="2"/>
+  <text x="60" y="75"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="40"
+        letter-spacing="-1"
+        fill="#3a4038">DA</text>
+</svg>
